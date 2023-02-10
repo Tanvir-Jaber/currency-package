@@ -1,0 +1,23 @@
+{
+    "name": "cer/currency",
+    "description": "A simple library for currency exchange rate.",
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": ">=5.4"
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+		"psr-4": {
+			"CER\\Currency\\": "src/"
+		}
+	},
+    "extra": {
+		"laravel": {
+			"providers": [
+				"CER\\Currency\\CurrencyServiceProvider"
+			]
+		}
+	}
+}

@@ -23,5 +23,6 @@
 				"CER\\Currency\\CurrencyServiceProvider"
 			]
 		}
-	}
+	},
+	"prefer-stable" : true
 }
